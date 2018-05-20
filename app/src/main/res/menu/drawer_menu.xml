@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Map"
+            android:icon="@drawable/ic_action_mapsss"
+            />
+
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_action_prof"
+                android:title="PROFILE" />
+            <item
+                android:id="@+id/nav_activist"
+                android:icon="@drawable/ic_action_prof"
+                android:title="Activist" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_action_sett"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_action_logout"
+                android:title="LogOut" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_action_helpp"
+                android:title="Help/FeedBack" />
+
 
 </menu>
