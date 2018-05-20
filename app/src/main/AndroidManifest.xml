@@ -51,13 +51,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RelegiousSects" />
+
         <activity
             android:name=".Grantings_forms"
             android:label="@string/title_activity_grantings_forms"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <activity android:name=".DrawerLayout"></activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".Activist" />
     </application>
 
 </manifest>
